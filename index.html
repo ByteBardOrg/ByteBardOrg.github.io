@@ -6,8 +6,12 @@
   <meta name="description" content="Byte Bard: Your Partner in Software Excellence">
   <title>Byte Bard - Elevate Your Software Excellence</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
-  /* Custom styles for muted color palette */
+    html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: #f4f4f4;
     color: #333;
@@ -31,6 +35,17 @@
   #about {
       background-color: #fff;
     }
+    .scroll-down-arrow {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #fff;
+  }
+  .scroll-to-section {
+    scroll-margin-top: 20px; /* Adjust this margin as needed */
+  }
 </style>
 </head>
 <body>
@@ -47,8 +62,11 @@
       </p>
     </div>
   </div>
+  <a href="#whatWeDo" class="scroll-down-arrow">
+    <i class="fas fa-chevron-down"></i>
+  </a>
 </section>
-<section class="section">
+<section id="whatWeDo" class="section scroll-to-section">
   <div class="container">
     <div class="columns">
         

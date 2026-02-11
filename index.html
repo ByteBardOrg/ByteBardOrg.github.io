@@ -1,146 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Byte Bard: Your Partner in Software Excellence">
-  <title>Byte Bard - Elevate Your Software Excellence</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <style>
-    html {
-    scroll-behavior: smooth;
-  }
-
-  body {
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  .hero.is-primary {
-    background-color: #a8c0ce;
-    color: #fff;
-  }
-  .button.is-primary {
-    background-color: #a8c0ce;
-    border-color: #a8c0ce;
-  }
-  .button.is-light {
-    background-color: #f4f4f4;
-    border-color: #f4f4f4;
-  }
-  .logo {
-    max-width: 300px;
-    margin-bottom: 20px;
-  }
-  #about {
-      background-color: #fff;
-    }
-    .scroll-down-arrow {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 24px;
-    color: #fff;
-  }
-  .scroll-to-section {
-    scroll-margin-top: 20px; /* Adjust this margin as needed */
-  }
-</style>
-</head>
-<body>
-
-<section class="hero is-primary is-fullheight">
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <img src="bytebardlogo.png" alt="Byte Bard Logo" class="logo">
-      <h1 class="title is-1">
-        Unleash the Symphony of Software Excellence with Byte Bard.
-      </h1>
-      <p class="subtitle is-4">
-        Your orchestration in software development and engineering consultancy.
-      </p>
-    </div>
-  </div>
-  <a href="#whatWeDo" class="scroll-down-arrow">
-    <i class="fas fa-chevron-down"></i>
-  </a>
-</section>
-<section id="whatWeDo" class="section scroll-to-section">
-  <div class="container">
-    <div class="columns">
-        
-      <div class="column">
-        
-        <h2 class="title is-2">Masters of the Cloud</h2>
-        <p>
-          Byte Bard harnesses the boundless potential of Azure, AWS, and cutting-edge cloud architecture. Our experts sculpt digital landscapes that defy convention, ensuring your business thrives in an era of transformation.
-        </p>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteBard | Products + DevEx, API, and Event-Driven Consultancy</title>
+    <meta name="description" content="ByteBard builds products and helps teams ship better systems through DevEx strategy, API and AsyncAPI design, and event-driven architecture.">
+    <meta name="theme-color" content="#0f1221">
+    <meta property="og:title" content="ByteBard">
+    <meta property="og:description" content="Products and consultancy for DevEx, API/AsyncAPI, and event-driven architecture.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bytebard.org">
+    <meta property="og:image" content="https://bytebard.org/bytebardlogo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ByteBard">
+    <meta name="twitter:description" content="Products and consultancy for DevEx, API/AsyncAPI, and event-driven architecture.">
+    <meta name="twitter:image" content="https://bytebard.org/bytebardlogo.png">
+    <link rel="canonical" href="https://bytebard.org/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="ByteBard Home">
+          <img src="bytebardlogo.png" alt="ByteBard Logo">
+          <span>ByteBard</span>
+        </a>
+        <nav aria-label="Primary">
+          <ul class="site-nav">
+            <li><a href="#products">Products</a></li>
+            <li><a href="#oss">OSS</a></li>
+            <li><a href="#consulting">Consulting</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class="column">
-        <h2 class="title is-2">Architects of Tomorrow</h2>
-        <p>
-          Our mastery extends to the art of software design. At Byte Bard, we craft digital symphonies rooted in Domain-Driven Design (DDD) principles. This design philosophy isn't just a choice; it's a commitment to solutions that align perfectly with your business needs.
-        </p>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <h2 class="title is-2">Craftsmanship in Code</h2>
-        <p>
-          Code isn't just a means to an end – it's the backbone of your success. Byte Bard's artisans of code quality weave intricate webs of resilience and longevity, ensuring your applications stand the test of time.
-        </p>
-      </div>
-      <div class="column">
-        <h2 class="title is-2">Optimization Unleashed</h2>
-        <p>
-          Every second counts, and Byte Bard understands the value of efficiency. Our process optimization strategies elevate your operations, removing friction and unlocking untapped potential.
-        </p>
-      </div>
-    </div>
-    <div class="has-text-centered">
-      <a href="#contact" class="button is-primary is-large">Get in Touch</a>
-    </div> 
-    </div>
-  </div>
-</section>
-<section id="about" class="hero is-light">
-    <div class="hero-body">
-      <div class="container">
-        <div class="columns">
-          <div class="column">
-            <h2 class="title is-2">About Us</h2>
-            <p>
-              Byte Bard is a Danish-based software development and engineering consultancy, headquartered in the vibrant city of Copenhagen. We are driven by a passion for creating exceptional solutions that push the boundaries of technology and elevate businesses to new heights.
+    </header>
+    <main id="main-content">
+      <section id="top" class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <p class="eyebrow">Products + Open Source + Consultancy</p>
+            <h1>Ship better software systems with ByteBard.</h1>
+            <p class="lead">
+              Specialists in DevEx, APIs, and Event-Driven Systems. We build products
+              and provide consultancy to help you scale your architecture and your team's
+              velocity without the friction.
             </p>
-            <p>
-              Our journey began with a simple yet powerful idea: to deliver not just software, but digital masterpieces that stand the test of time. We've grown tired of witnessing subpar outcomes and are committed to rewriting the consultancy narrative. Every line of code, every design choice, and every decision we make is infused with our unwavering dedication to excellence.
-            </p>
+            <div class="cta-row">
+              <a class="button button-primary" href="mailto:contact@bytebard.org">Start a conversation</a>
+              <a class="button button-secondary" href="#products">Explore products</a>
+            </div>
           </div>
-          <div class="column">
-            <h2 class="title is-2">Our Mission</h2>
+          <aside class="hero-aside reveal">
+            <div class="logo-card">
+              <img src="bytebardlogo.png" alt="" aria-hidden="true">
+            </div>
+            <p class="meta-line">Based in Copenhagen. Supporting teams globally.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="products" class="section">
+        <div class="container">
+          <p class="eyebrow">Products</p>
+          <h2>Under the ByteBard name</h2>
+          <p class="section-intro">
+            We invest in products that solve recurring engineering problems in real teams.
+          </p>
+          <div class="card-grid two-col">
+            <article class="panel reveal">
+              <h3>ShieldedStack</h3>
+              <p>
+                Security-first environment and configuration controls that help teams ship
+                safely across local, CI, and production workflows.
+              </p>
+              <ul>
+                <li>Environment policy and secret handling guardrails</li>
+                <li>Workflow support across developer machines and pipelines</li>
+                <li>Secure defaults that reduce accidental exposure risk</li>
+              </ul>
+              <a class="inline-link" href="https://shieldedstack.com" target="_blank" rel="noreferrer">Visit ShieldedStack</a>
+            </article>
+            <article class="panel reveal">
+              <h3>Critiq</h3>
+              <p>
+                Lightweight product and engineering feedback loops that make review, triage,
+                and decision-making more intentional.
+              </p>
+              <ul>
+                <li>Clear intake flow for product and engineering feedback</li>
+                <li>Structured prioritization with less meeting overhead</li>
+                <li>Fast paths from insight to implementation action</li>
+              </ul>
+              <a class="inline-link" href="https://getcritiq.dev" target="_blank" rel="noreferrer">Visit Critiq</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="oss" class="section">
+        <div class="container">
+          <p class="eyebrow">Open Source</p>
+          <h2>Projects we maintain publicly</h2>
+          <p class="section-intro">
+            We contribute reusable tooling and libraries that support modern API and event-driven engineering.
+          </p>
+          <div class="card-grid two-col">
+            <article class="panel reveal">
+              <h3>GUSTO</h3>
+              <p>
+                A lightweight .NET background job runner where you own storage and orchestration abstractions, then opt in to
+                extensions like batching, continuations, cron scheduling, retries, and observability.
+              </p>
+              <a class="inline-link" href="https://bytebard.org/GUSTO/" target="_blank" rel="noreferrer">Explore GUSTO</a>
+            </article>
+            <article class="panel reveal">
+              <h3>AsyncAPI.NET</h3>
+              <p>
+                .NET tooling for working with AsyncAPI specifications and integrating event-driven contracts in
+                real-world services.
+              </p>
+              <a class="inline-link" href="https://github.com/ByteBardOrg/AsyncAPI.NET" target="_blank" rel="noreferrer">View AsyncAPI.NET</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="consulting" class="section">
+        <div class="container">
+          <p class="eyebrow">Consulting Focus</p>
+          <h2>What we help teams build and improve</h2>
+          <div class="card-grid three-col">
+            <article class="panel reveal">
+              <h3>Developer Experience</h3>
+              <p>
+                Diagnose friction in local development, CI/CD, and platform workflows, then
+                remove bottlenecks that slow delivery.
+              </p>
+            </article>
+            <article class="panel reveal">
+              <h3>API + AsyncAPI Design</h3>
+              <p>
+                Create contracts that are clear, evolvable, and operationally realistic for
+                both synchronous and asynchronous integrations.
+              </p>
+            </article>
+            <article class="panel reveal">
+              <h3>Event-Driven Architecture</h3>
+              <p>
+                Shape event models, boundaries, and reliability patterns that keep distributed
+                systems understandable as they grow.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-we-work" class="section">
+        <div class="container">
+          <p class="eyebrow">How We Work</p>
+          <h2>Hands-on, outcome-oriented collaboration</h2>
+          <div class="card-grid two-col">
+            <article class="panel reveal">
+              <h3>1. Diagnose</h3>
+              <p>
+                We map delivery flow, architecture constraints, and team pain points to identify
+                the highest-leverage intervention areas.
+              </p>
+            </article>
+            <article class="panel reveal">
+              <h3>2. Design</h3>
+              <p>
+                We define practical target states for platforms, APIs, or event systems with
+                explicit tradeoffs and execution sequence.
+              </p>
+            </article>
+            <article class="panel reveal">
+              <h3>3. Deliver</h3>
+              <p>
+                We pair with your team to implement, not just advise, and keep the changes
+                measurable against engineering outcomes.
+              </p>
+            </article>
+            <article class="panel reveal">
+              <h3>4. Enable</h3>
+              <p>
+                We leave teams with playbooks, standards, and guardrails so velocity stays high
+                after the engagement ends.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <p class="eyebrow">About ByteBard</p>
+          <h2>Built for teams that care about software quality and delivery speed</h2>
+          <div class="about-grid">
             <p>
-              At Byte Bard, our mission is clear: to be the catalyst that transforms your vision into reality. We collaborate closely with our clients, leveraging our expertise in cloud technologies, process optimization, software design, and more to deliver solutions that not only meet your needs but exceed your expectations.
+              ByteBard is a Copenhagen-based software consultancy and product studio. We work with
+              engineering organizations that need better developer workflows and stronger technical
+              foundations to scale.
             </p>
             <p>
-              Join us on a journey fueled by innovation, quality, and a shared commitment to success. Experience the Byte Bard difference and let's embark on a collaborative partnership that redefines what's possible in software development.
+              Our work sits where product decisions, architecture, and delivery execution meet.
+              We focus on clear contracts, resilient systems, and practical improvements teams can
+              sustain long term.
             </p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-<section id="contact" class="hero is-primary is-fullheight">
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <h2 class="title is-2">Your Journey Begins Here</h2>
-      <p class="subtitle is-4">
-        Join Byte Bard in sculpting a digital world that defies limits and embraces innovation.
-      </p>
-      <a href="mailto:contact@bytebard.org" class="button is-light is-large">Contact</a>
-    </div>
-  </div>
-</section>
+      </section>
 
-</body>
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="contact-card reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Need support on platform, API, or event-driven initiatives?</h2>
+            <p>
+              Tell us what your team is building and where delivery is getting blocked.
+              We will respond with a practical next step.
+            </p>
+            <a class="button button-primary" href="mailto:contact@bytebard.org">contact@bytebard.org</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>ByteBard. Product studio and software consultancy.</p>
+      </div>
+    </footer>
+  </body>
 </html>

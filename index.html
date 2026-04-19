@@ -7,12 +7,14 @@
     <meta name="title" content="ByteBard | Engineering Velocity through DevEx &amp; EDA">
     <meta name="description" content="ByteBard builds focused engineering products and helps teams scale with high-performance DevEx, API strategy, and resilient event-driven architectures.">
     <meta name="keywords" content="ByteBard, DevEx, engineering velocity, API strategy, API governance, event-driven architecture, EDA, ShieldedStack, Critiq, GUSTO, AsyncAPI.NET, software consultancy">
+    <meta name="author" content="ByteBard">
     <meta name="theme-color" content="#0f1221">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://bytebard.org/">
     <meta property="og:title" content="ByteBard | Ship Better Software Systems">
     <meta property="og:description" content="Specialist consultancy and product studio focused on removing engineering friction through DevEx and scalable event-driven design.">
     <meta property="og:image" content="https://bytebard.org/og-image.png">
+    <meta property="og:image:alt" content="ByteBard brand mark with the text ByteBard and the tagline Engineering Velocity through DevEx and Event-Driven Architecture.">
     <meta property="og:site_name" content="ByteBard">
     <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary_large_image">
@@ -20,10 +22,50 @@
     <meta name="twitter:title" content="ByteBard | DevEx &amp; Architecture Specialists">
     <meta name="twitter:description" content="We build the products and systems that help engineering teams scale without the delivery drag.">
     <meta name="twitter:image" content="https://bytebard.org/og-image.png">
+    <meta name="twitter:image:alt" content="ByteBard brand mark with the text ByteBard and the tagline Engineering Velocity through DevEx and Event-Driven Architecture.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://bytebard.org/">
+    <link rel="sitemap" type="application/xml" href="https://bytebard.org/sitemap.xml">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=ibm-plex-sans:400,500,600|space-grotesk:500,600,700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://bytebard.org/#organization",
+            "name": "ByteBard",
+            "url": "https://bytebard.org/",
+            "logo": "https://bytebard.org/bytebardlogo.png",
+            "description": "Copenhagen-based software consultancy and product studio focused on DevEx, APIs, and event-driven systems.",
+            "email": "contact@bytebard.org"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://bytebard.org/#website",
+            "url": "https://bytebard.org/",
+            "name": "ByteBard",
+            "hasPart": {
+              "@id": "https://blog.bytebard.org/#blog"
+            },
+            "publisher": {
+              "@id": "https://bytebard.org/#organization"
+            }
+          },
+          {
+            "@type": "Blog",
+            "@id": "https://blog.bytebard.org/#blog",
+            "url": "https://blog.bytebard.org/",
+            "name": "Small Bytes",
+            "description": "Small Bytes is the ByteBard blog covering practical engineering topics across developer experience, API strategy, and event-driven architecture.",
+            "publisher": {
+              "@id": "https://bytebard.org/#organization"
+            }
+          }
+        ]
+      }
+    </script>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -38,6 +80,7 @@
           <ul class="site-nav">
             <li><a href="#products">Products</a></li>
             <li><a href="#oss">OSS</a></li>
+            <li><a href="https://blog.bytebard.org" target="_blank" rel="noopener noreferrer">Blog</a></li>
             <li><a href="#consulting">Consulting</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -89,7 +132,7 @@
                 <li>Policy-driven controls for package and vulnerability enforcement</li>
                 <li>SBOM export, license change detection, and alerting support</li>
               </ul>
-              <a class="inline-link" href="https://shieldedstack.com" target="_blank" rel="noreferrer">Visit ShieldedStack</a>
+              <a class="inline-link" href="https://shieldedstack.com" target="_blank" rel="noopener noreferrer">Visit ShieldedStack</a>
             </article>
             <article class="panel reveal">
               <h3>Critiq</h3>
@@ -102,7 +145,7 @@
                 <li>LSP-powered navigation: hover types, jump to definitions, and symbol lookup</li>
                 <li>AI-assisted diff explanation and triage with cloud or local models</li>
               </ul>
-              <a class="inline-link" href="https://getcritiq.dev" target="_blank" rel="noreferrer">Visit Critiq</a>
+              <a class="inline-link" href="https://getcritiq.dev" target="_blank" rel="noopener noreferrer">Visit Critiq</a>
             </article>
           </div>
         </div>
@@ -122,7 +165,7 @@
                 A lightweight .NET background job runner where you own storage and orchestration abstractions, then opt in to
                 extensions like batching, continuations, cron scheduling, retries, and observability.
               </p>
-              <a class="inline-link" href="https://bytebard.org/GUSTO/" target="_blank" rel="noreferrer">Explore GUSTO</a>
+              <a class="inline-link" href="https://bytebard.org/GUSTO/" target="_blank" rel="noopener noreferrer">Explore GUSTO</a>
             </article>
             <article class="panel reveal">
               <h3>AsyncAPI.NET</h3>
@@ -130,7 +173,7 @@
                 .NET tooling for working with AsyncAPI specifications and integrating event-driven contracts in
                 real-world services.
               </p>
-              <a class="inline-link" href="https://github.com/ByteBardOrg/AsyncAPI.NET" target="_blank" rel="noreferrer">View AsyncAPI.NET</a>
+              <a class="inline-link" href="https://github.com/ByteBardOrg/AsyncAPI.NET" target="_blank" rel="noopener noreferrer">View AsyncAPI.NET</a>
             </article>
           </div>
         </div>
@@ -239,7 +282,7 @@
     </main>
     <footer class="site-footer">
       <div class="container">
-        <p>ByteBard. Product studio and software consultancy.</p>
+        <p>ByteBard. Product studio and software consultancy. Read our blog at <a href="https://blog.bytebard.org" target="_blank" rel="noopener noreferrer">blog.bytebard.org</a>.</p>
       </div>
     </footer>
   </body>
